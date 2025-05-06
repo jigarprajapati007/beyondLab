@@ -1,0 +1,63 @@
+.div-footer {
+  margin-left: auto;
+  display: flex;
+  gap: 20px;
+  @media (min-width: 100px) and (max-width: 1500px) {
+    width: 20% !important;
+    // margin-top: 400px;
+  }
+  @media (min-width: 100px) and (max-width: 575px) {
+    width: 28% !important;
+    margin: auto !important;
+    // margin-top: 400px;
+  }
+  
+  .next-btn {
+    background-color: #f66135;
+    color: #fbfafa;
+    width: 176px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    border: none !important;
+  }
+  .next-btn:hover{
+    background-color: #f66135 !important;
+    color: #fbfafa !important;
+    width: 176px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    border: none !important;
+  }
+  .back-btn{
+    background-color: #FFFFFF;
+    color: #000000;
+    width: 176px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    border: 1px solid #000000 !important;
+  }
+  .back-btn:hover{
+    background-color: #FFFFFF;
+    color: #000000 !important;
+    width: 176px;
+    height: 48px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    border: 1px solid #000000 !important;
+  }
+}

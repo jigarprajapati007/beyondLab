@@ -1,0 +1,151 @@
+.upload-container {
+  margin: auto;
+  width: 1108px;
+  @media (min-width: 100px) and (max-width: 1107px) {
+    width: 100%;
+    margin: auto;
+    padding: 20px;
+  }
+  .div-main-file {
+    width: 518px;
+    background-color: #fff5f2;
+    border-radius: 16.2px;
+    padding: 10px;
+    height: 125px;
+    margin-top: 18px;
+    padding-bottom: 22px;
+    @media (min-width: 100px) and (max-width: 576px) {
+      width: 96%;
+      margin-left: 50px;
+      margin-bottom: 20px;
+    }
+  }
+  .div-file {
+    display: flex;
+    gap: 15px;
+    @keyframes spin {
+      0% {
+        transform: rotate(0deg);
+      }
+      100% {
+        transform: rotate(360deg);
+      }
+    }
+    .close-div {
+      display: flex;
+      width: 438px;
+      align-items: baseline;
+      @media (min-width: 100px) and (max-width: 566px) {
+        width: 100% !important;
+        margin: auto;
+      }
+      img{
+        margin-left: auto;
+        cursor: pointer;
+      }
+    }
+    .file-h4 {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 16px;
+      line-height: 100%;
+      letter-spacing: 0%;
+      color: #292d32;
+      margin-bottom: 0px;
+    }
+    .div-load {
+      display: flex;
+      align-items: center;
+      gap: 4px;
+      p {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #a9acb4;
+        margin-top: 0px;
+      }
+      h6 {
+        font-family: Inter;
+        font-weight: 400;
+        font-size: 14px;
+        line-height: 100%;
+        letter-spacing: 0%;
+        color: #292d32;
+        margin-top: 18px;
+      }
+    }
+  }
+  .cnt-div {
+    width: 368px;
+    margin: auto;
+    text-align: center;
+    margin-top: 45px;
+    @media (min-width: 100px) and (max-width: 390px) {
+      width: 100%;
+      margin: auto;
+      margin-top: 45px;
+    }
+  }
+  label {
+    border: 2px dotted #cbd0dc;
+    width: 532px;
+    display: block;
+    height: 259px;
+    border-radius: 10px;
+    @media (min-width: 100px) and (max-width: 576px) {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 20px;
+    }
+  }
+  .p-tag {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #a9acb4;
+  }
+  .img-upload {
+  }
+  .h4-text {
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 16px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #484848;
+  }
+  button {
+    background-color: #ffffff;
+    color: #000000;
+    border: 1px solid #000000;
+    border-radius: 4px;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.25px;
+    color: #484848;
+    width: 171px;
+    height: 48px;
+  }
+  .title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.25px;
+    color: #484848;
+  }
+  .footer-div{
+    display: flex;
+    align-items: center;
+    flex-wrap: wrap;
+    @media (min-width: 100px) and (max-width: 715px) {
+      margin-left: -61px;
+    }
+  }
+}

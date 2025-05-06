@@ -1,0 +1,86 @@
+.thank-container {
+  margin-top: 60px;
+  .title {
+    width: 400px;
+    display: flex;
+    flex-wrap: wrap;
+    margin: auto;
+    align-items: center;
+    gap: 5px;
+    @media (min-width: 100px) and (max-width: 400px) {
+      width: 100%;
+    }
+    h3 {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 23px;
+      letter-spacing: -0.25px;
+      color: #f66135;
+      @media (min-width: 100px) and (max-width: 400px) {
+        margin: auto;
+      }
+    }
+    h4 {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 24px;
+      line-height: 23px;
+      letter-spacing: -0.25px;
+      color: #484848;
+      @media (min-width: 100px) and (max-width: 400px) {
+        margin: auto;
+        margin-bottom: 30px;
+      }
+    }
+  }
+  p {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #484848;
+    width: 498px;
+    margin: auto;
+    margin-top: -15px;
+    text-align: center;
+    @media (min-width: 100px) and (max-width: 500px) {
+        width: 100%;
+      }
+  }
+  div {
+    width: 224px;
+    display: flex;
+    margin: auto;
+    margin-top: 20px;
+    align-items: center;
+    @media (min-width: 100px) and (max-width: 230px) {
+      width: 100%;
+    }
+    button {
+      background-color: #f66135;
+      color: #fbfafa;
+      width: 176px;
+      height: 48px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      border: none !important;
+    }
+    button:hover {
+      background-color: #f66135 !important;
+      color: #fbfafa !important;
+      width: 176px;
+      height: 48px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      border: none !important;
+    }
+  }
+}

@@ -1,0 +1,137 @@
+@import "../style/footer.scss";
+.summary-container {
+  width: 1103px;
+  margin: auto;
+  margin-top: 50px;
+  @media (min-width: 100px) and (max-width: 1104px) {
+    width: 100%;
+  }
+  .title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 24px;
+    line-height: 58px;
+    letter-spacing: -0.25px;
+    color: #484848;
+    margin: auto;
+    margin-bottom: 40px;
+    width: 1103px;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+      margin: auto;
+      margin-bottom: 40px;
+    }
+  }
+  .hr-tag {
+    border: 1px solid #dddddd;
+    background-color: #dddddd;
+    margin-top: 50px;
+    margin-bottom: 50px;
+  }
+  .title-all {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.25px;
+    color: #484848;
+  }
+  .que {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 14px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #272727;
+    margin-bottom: -5px;
+  }
+  .ans {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 16px;
+    line-height: 16px;
+    letter-spacing: 0.5px;
+    color: #272727;
+  }
+  .down-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 10px;
+    img{
+        cursor: pointer;
+    }
+  }
+  .info-div-basic {
+    width: 513px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      width: 50%;
+    }
+    @media (min-width: 100px) and (max-width: 514px) {
+      width: 100%;
+    }
+  }
+  .info-div-skill {
+    width: 513px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      width: 50%;
+    }
+    @media (min-width: 100px) and (max-width: 514px) {
+      width: 100%;
+    }
+  }
+  .info-div-edu {
+    width: 1103px;
+    display: flex;
+    flex-wrap: wrap;
+    div {
+      width: 25%;
+    }
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+    }
+  }
+  .terms {
+    font-family: Inter;
+    font-weight: 400;
+    font-size: 16px;
+    line-height: 24px;
+    letter-spacing: 0.1px;
+    color: #484848;
+  }
+  .custom-checkbox {
+    margin-bottom: 50px;
+    .ant-checkbox-inner {
+      border: 1px solid #556171 !important;
+      border-radius: 0px !important;
+    }
+    .ant-checkbox-checked {
+      //   border: 1px solid #556171 !important;
+      border-radius: none !important;
+      background-color: #f66135 !important;
+    }
+    .ant-checkbox-label {
+      font-family: Inter;
+      font-weight: 600;
+      font-size: 16px;
+      line-height: 28px;
+      letter-spacing: 0%;
+      color: #556171;
+    }
+  }
+  .custom-checkbox:hover {
+    .ant-checkbox-inner {
+      border: none !important;
+      border-radius: none !important;
+      background-color: #f66135;
+      color: #ffffff;
+    }
+    .ant-checkbox-checked {
+      border-radius: none !important;
+      background-color: #f66135 !important;
+    }
+  }
+}

@@ -1,0 +1,77 @@
+.basic-container {
+  .title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.25px;
+    color: #484848;
+    margin: auto;
+    margin-top: 50px;
+    width: 1103px;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
+  .form {
+    display: flex;
+    flex-wrap: wrap;
+    width: 1103px;
+    margin: auto;
+    gap: 25px;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+      display: inline;
+    }
+    .ant-form-item-control-input {
+      width: 419px;
+      height: 56px;
+      @media (min-width: 100px) and (max-width: 420px) {
+        width: 100%;
+      }
+      input {
+        height: 56px;
+        background-color: #f9f9f9;
+        border: none;
+        border-radius: 4px;
+        color: #5c5c5c;
+      }
+    }
+    label {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5px;
+      color: #5c5c5c;
+    }
+    .ant-select {
+      width: 17% !important;
+      align-items: center;
+      margin-top: 11px;
+    }
+    .ant-select-selector {
+      height: 56px;
+      border: none;
+      background-color: #ececec;
+      width: 81px;
+    }
+    input {
+      height: 56px;
+      background-color: #f9f9f9;
+      border: none;
+      border-radius: 4px;
+      color: #5c5c5c;
+    }
+  }
+  input[type="number"]::-webkit-inner-spin-button,
+  input[type="number"]::-webkit-outer-spin-button {
+    -webkit-appearance: none;
+    margin: 0;
+  }
+  input[type='number'] {
+    -moz-appearance: textfield;
+  }
+}

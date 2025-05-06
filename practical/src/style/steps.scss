@@ -1,0 +1,45 @@
+/* Done steps (completed) */
+.ant-steps-item-finish .ant-steps-item-tail::after {
+    background-color: #f66135 !important;
+  }
+  
+  /* In progress step (current step) */
+  .ant-steps-item-process .ant-steps-item-tail::after {
+    background-color: #f66135 !important;
+  }
+  
+  /* Future steps (upcoming) */
+  .ant-steps-item-wait .ant-steps-item-tail::after {
+    background-color: #d1d5db !important;
+  }
+
+  .ant-steps-item-title{
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 100%;
+    letter-spacing: 0%;
+    color: #484848 !important;
+    width: 132px;
+    margin-left: -10px;
+    @media (min-width: 100px) and (max-width: 1100px) {
+        width: 100%;
+        margin-left: 0px;
+      }
+  }
+  .ant-steps{
+    width: 1089px !important;
+    margin: auto !important;
+    margin-top: 100px !important;
+
+    @media (min-width: 100px) and (max-width: 1090px) {
+        width: 100% !important;
+        margin: auto !important;
+        margin-top: 100px !important;
+      }
+      @media (min-width: 100px) and (max-width: 575px) {
+        width: 40% !important;
+        margin: auto !important;
+        margin-top: 80px !important;
+      }
+  }

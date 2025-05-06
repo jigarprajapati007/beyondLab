@@ -1,0 +1,134 @@
+.skill-container {
+  .title {
+    font-family: Inter;
+    font-weight: 600;
+    font-size: 20px;
+    line-height: 58px;
+    letter-spacing: -0.25px;
+    color: #484848;
+    margin: auto;
+    margin-top: 50px;
+    width: 1103px;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+      margin: auto;
+      margin-top: 50px;
+    }
+  }
+  input {
+    width: 419px;
+    height: 56px;
+    background-color: #f9f9f9;
+    border: none;
+    border-radius: 4px;
+    color: #5c5c5c;
+    @media (min-width: 100px) and (max-width: 420px) {
+      width: 100%;
+    }
+  }
+  .ant-select {
+    width: 419px !important;
+    align-items: center;
+    height: 56px;
+    border: none;
+    background-color: #ececec;
+    width: 81px;
+    @media (min-width: 100px) and (max-width: 420px) {
+      width: 100%;
+    }
+  }
+  .ant-select-selector {
+    height: 56px;
+    border: none;
+    background-color: #f9f9f9 !important;
+    width: 81px;
+    border: none !important;
+    font-family: Inter;
+    font-weight: 500;
+    font-size: 14px;
+    line-height: 20px;
+    letter-spacing: 0.1px;
+    color: #5c5c5c;
+  }
+  .space-div {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 25px;
+    width: 1103px;
+    margin: auto;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+      margin: auto;
+    }
+  }
+  .btn-div {
+    width: 1103px;
+    margin: auto;
+    @media (min-width: 100px) and (max-width: 1104px) {
+      width: 100%;
+    }
+    .btn-add {
+      background-color: #f66135;
+      color: #fbfafa;
+      width: 151px;
+      height: 48px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      border: none !important;
+      margin-top: 40px;
+      margin-bottom: 30px;
+    }
+    .btn-add:hover {
+      background-color: #f66135 !important;
+      margin-top: 40px;
+      color: #fbfafa !important;
+      width: 151px;
+      height: 48px;
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.25px;
+      border: none !important;
+      margin-bottom: 30px;
+    }
+  }
+  .div-skill {
+    display: flex;
+    flex-wrap: wrap;
+    gap: 8px;
+    span {
+      svg {
+        width: 16px;
+        height: 16px;
+        color: #5c5c5c;
+      }
+    }
+    .ant-tag {
+      height: 48px;
+      border-radius: 4px;
+      border: 1px solid #ececec;
+      font-family: Inter;
+      font-weight: 400;
+      font-size: 14px;
+      line-height: 20px;
+      letter-spacing: 0.1px;
+      color: #5c5c5c;
+      display: flex;
+      align-items: center;
+    }
+  }
+  .ant-form-item-label {
+    label {
+      font-family: Inter;
+      font-weight: 500;
+      font-size: 12px;
+      line-height: 16px;
+      letter-spacing: 0.5px;
+      color: #5c5c5c !important;
+    }
+  }
+}
