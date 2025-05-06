@@ -15,11 +15,10 @@ import { AddEducation } from "../components/AddEducation";
 import { Summery } from "../components/Summery";
 import { ThankYou } from "../components/ThankYou";
 import { message } from "antd";
-//@ts-ignore
-import html2pdf from "html2pdf.js";
+
 export default function Main() {
   //steper state
-  const [stepNum, setStepNum] = useState<number>(localStorage.getItem("stepNum")&&JSON.parse(localStorage.getItem("stepNum") as any||''));
+  const [stepNum, setStepNum] = useState<number>(localStorage.getItem("stepNum")&&JSON.parse(localStorage.getItem("stepNum") as any||'0'));
   //upload states
   const [file, setFile] = useState<any>({});
   const [isUploading, setIsUploading] = useState(false);
@@ -40,6 +39,9 @@ export default function Main() {
   const [check, setCheck] = useState(true);
   //steper handle function
   const detectstepNum = () => {
+    if(!stepNum){
+      setStepNum(0)
+    }
     localStorage.setItem("stepNum", JSON.stringify(stepNum));
   };
   const handleStateChange = () => {
