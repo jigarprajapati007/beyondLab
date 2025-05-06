@@ -19,7 +19,7 @@ import { message } from "antd";
 import html2pdf from "html2pdf.js";
 export default function Main() {
   //steper state
-  const [stepNum, setStepNum] = useState<number>(JSON.parse(localStorage.getItem("stepNum") as any||''));
+  const [stepNum, setStepNum] = useState<number>(localStorage.getItem("stepNum")&&JSON.parse(localStorage.getItem("stepNum") as any||''));
   //upload states
   const [file, setFile] = useState<any>({});
   const [isUploading, setIsUploading] = useState(false);

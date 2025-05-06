@@ -94,7 +94,7 @@ export const Summery = ({
         {educations?.length > 0 &&
           educations?.map((item, index) => {
             return (
-              <div className="info-div-edu">
+              <div className="info-div-edu" key={index}>
                 <div>
                   <p className="que">Degree Name</p>
                   <h5 className="ans">{item.degree}</h5>
