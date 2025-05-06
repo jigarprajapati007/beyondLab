@@ -1,4 +1,4 @@
-import { Dispatch, Fragment, SetStateAction } from "react";
+import { Dispatch, Fragment, SetStateAction, useEffect } from "react";
 import "../style/summary.scss";
 import down from "../assets/Summary/download.svg";
 import { Button, Checkbox, Tooltip } from "antd";
@@ -38,6 +38,7 @@ export const Summery = ({
   userAllSkill,
   educations,
 }: props) => {
+  useEffect(()=>setCheck(true),[])
   return (
     <div className="summary-container" id={divId}>
       <h4 className="title">Summary</h4>
